@@ -23,6 +23,9 @@
                 <img src="{{ url_for('static',filename='logo.png') }}" height="auto" width="100%">
             </header>
             <hr style="border: 2px solid #4db6ac;" />
+            <center>
+              <h4>Welcome to Dash...</h4>
+            <center>
             <div id = "body-elements">
               <form id="upload-form" action="{{ url_for('upload') }}" method="POST" enctype="multipart/form-data">
                   <div id = "name1">
@@ -43,6 +46,12 @@
                       </fieldset>
               </form>
             </div>
+            <div>
+              <center>
+                <a class="importar" href="https://www.github.com/" rel="tooltip" title="Follow in Github" target="_blank"><i class="fa fa-github fa-3x" style="hight:50px;"></i></a>
+                <a class="importar" href="https://www.twitter.com/" rel="tooltip" title="Follow in Twitter" target="_blank"><i class="fa fa-twitter fa-3x"></i></a>
+              </center>
+            </div>
             <footer>
                 <div class="divider">
                     <span><AR>Files</AR></span>
@@ -52,6 +61,7 @@
                 </div>
                 <center>
                     <button class="importar">Done</button>
+
                 </center>
             </footer>
         </div>
